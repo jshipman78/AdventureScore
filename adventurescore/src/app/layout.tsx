@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "AdventureScore - Track Your Adventures",
   description: "Gamified travel tracking platform. Log adventures, earn points, climb ranks.",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
