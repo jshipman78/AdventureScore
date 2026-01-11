@@ -1,6 +1,6 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "nextjs",
-  "rootDirectory": "adventurescore",
-  "buildCommand": "npm run build"
+  "buildCommand": "cd adventurescore && npm install && npm run build",
+  "devCommand": "cd adventurescore && npm run dev",
+  "installCommand": "cd adventurescore && npm install",
+  "outputDirectory": "adventurescore/.next"
 }
