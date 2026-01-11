@@ -1,6 +1,4 @@
 {
-  "buildCommand": "cd adventurescore && npm install && npm run build",
-  "devCommand": "cd adventurescore && npm run dev",
-  "installCommand": "cd adventurescore && npm install",
+  "buildCommand": "cd adventurescore && npm run build",
   "outputDirectory": "adventurescore/.next"
 }
